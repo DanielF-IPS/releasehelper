@@ -1,0 +1,6 @@
+{
+    "additionalStuffToIgnore": {
+        "type": "C",
+        "class": "\\IPS\\Application\\BuilderFilter"
+    }
+}
