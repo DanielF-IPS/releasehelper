@@ -14,6 +14,14 @@ class releasehelper_hook_additionalStuffToIgnore extends _HOOK_CLASS_
 		'.gitignore',
 	];
 
+	protected function getDirectoriesToIgnore()
+	{
+		return array_merge( parent::getDirectoriesToIgnore(), array(
+			'.idea'
+			)
+		);
+	}
+
 	public function accept()
 	{
 		if ( $this->isFile() )
