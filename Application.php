@@ -16,5 +16,10 @@ namespace IPS\releasehelper;
  */
 class _Application extends \IPS\Application
 {
-	
+	public function getWebhooks(): array
+	{
+		return [
+			'df_app_newversion' => [ 'application' => 'The Application Key ( Directory )', 'long' => "The long version number", 'human' => 'The human version number'],
+		];
+	}
 }

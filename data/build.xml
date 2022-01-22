@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <build>
  <hook key="additionalStuffToIgnore"><![CDATA[{"type":"C","class":"\\IPS\\Application\\BuilderFilter"}]]></hook>
+ <hook key="Application"><![CDATA[{"type":"C","class":"\\IPS\\Application"}]]></hook>
 </build>

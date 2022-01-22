@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="releasehelper" version="10001">
+ <app key="releasehelper" version="10002">
   <word key="__app_releasehelper" js="0">Release Helper</word>
+  <word key="webhook_df_app_newversion" js="0">Fired when a new app version is built</word>
  </app>
 </language>

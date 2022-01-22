@@ -2,5 +2,9 @@
     "additionalStuffToIgnore": {
         "type": "C",
         "class": "\\IPS\\Application\\BuilderFilter"
+    },
+    "Application": {
+        "type": "C",
+        "class": "\\IPS\\Application"
     }
 }
